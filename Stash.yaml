@@ -1,12 +1,10 @@
+desc: "Repcz"
+name: "Repcz"
 # Author:https://github.com/Repcz
 # TG:https://t.me/QVQ_Channel
 # 最后更新时间: 2026-7-11 13:30
 #
 # Stash Version ≥ 2.6.0 
-#
-# 以 ';' 或 '#' 或 '//' 开头的配置文件行为注释行
-#
-# ================
 
 mode: rule
 log-level: info       
@@ -15,44 +13,37 @@ dns:
   nameserver: [223.5.5.5, 119.29.29.29]
   fake-ip-filter: ['+.lan', '*', '+.local', '+.cmpassport.com', 'id6.me', 'open.e.189.cn', 'mdn.open.wo.cn', 'opencloud.wostore.cn', 'auth.wosms.cn', '+.10099.com.cn', '+.msftconnecttest.com', '+.msftncsi.com', 'lancache.steamcontent.com']
 
-subscribe-url: 
-
-proxy-providers:
-  Subscribe:
-    interval: 86400
-    url: http://your-service-provider
-    benchmark-timeout: 5
-    benchmark-url: http://1.1.1.1/generate_204
-
 proxy-groups:
 
-  - {name: Manual, icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/%24tash.png, type: select, use: [Subscribe], proxies: [HongKong, United States, Singapore, Japan, Taiwan, DIRECT]}
+  - {name: Manual, icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/%24tash.png, type: select, use: [Subscribe], proxies: [HongKong, United States, Canada, Singapore, Japan, Taiwan, DIRECT]}
 
-  - {name: Global, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png, type: select, proxies: [Manual, HongKong, United States, Singapore, Japan, Taiwan]}
+  - {name: Global, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png, type: select, proxies: [Manual, HongKong, United States, Canada, Singapore, Japan, Taiwan]}
 
-  - {name: Streaming, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png, type: select, proxies: [Manual, HongKong, United States, Singapore, Japan, Taiwan]}
+  - {name: Streaming, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube.png, type: select, proxies: [Manual, HongKong, United States, Canada, Singapore, Japan, Taiwan]}
 
-  - {name: Microsoft, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png, type: select, proxies: [Manual, HongKong, United States, Singapore, Japan, Taiwan]}
+  - {name: Microsoft, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png, type: select, proxies: [Manual, HongKong, United States, Canada, Singapore, Japan, Taiwan]}
 
-  - {name: Google, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png, type: select, proxies: [Manual, HongKong, United States, Singapore, Japan, Taiwan]}
+  - {name: Google, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google_Search.png, type: select, proxies: [Manual, HongKong, United States, Canada, Singapore, Japan, Taiwan]}
 
-  - {name: AI, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png, type: select, proxies: [Manual, HongKong, United States, Singapore, Japan, Taiwan]}
+  - {name: AI, icon: https://raw.githubusercontent.com/Orz-3/mini/master/Color/OpenAI.png, type: select, proxies: [Manual, HongKong, United States, Canada, Singapore, Japan, Taiwan]}
 
-  - {name: Social, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png, type: select, proxies: [Manual, HongKong, United States, Singapore, Japan, Taiwan]}
+  - {name: Social, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png, type: select, proxies: [Manual, HongKong, United States, Canada, Singapore, Japan, Taiwan]}
 
-  - {name: Telegram, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png, type: select, proxies: [Manual, HongKong, United States, Singapore, Japan, Taiwan]}
+  - {name: Telegram, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png, type: select, proxies: [Manual, HongKong, United States, Canada, Singapore, Japan, Taiwan]}
 
-  - {name: Game, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png, type: select, proxies: [Manual, HongKong, United States, Singapore, Japan, Taiwan, DIRECT]}
+  - {name: Game, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Game.png, type: select, proxies: [Manual, HongKong, United States, Canada, Singapore, Japan, Taiwan, DIRECT]}
 
-  - {name: Emby, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, type: select, include-all: true, proxies: [HongKong, United States, Singapore, Japan, Taiwan]}
+  - {name: Emby, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png, type: select, include-all: true, proxies: [HongKong, United States, Canada, Singapore, Japan, Taiwan]}
 
-  - {name: Spotify, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png, type: select, proxies: [Manual, HongKong, United States, Singapore, Japan, Taiwan]}
+  - {name: Spotify, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png, type: select, proxies: [Manual, HongKong, United States, Canada, Singapore, Japan, Taiwan]}
 
-  - {name: Final, icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/friestash.png, type: select, proxies: [Manual, HongKong, United States, Singapore, Japan, Taiwan, DIRECT]}
+  - {name: Final, icon: https://github.com/shindgewongxj/WHATSINStash/raw/main/icon/friestash.png, type: select, proxies: [Manual, HongKong, United States, Canada, Singapore, Japan, Taiwan, DIRECT]}
 
   - {name: HongKong, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇭🇰|香港|(\b(HK|Hong)\b)"}
 
   - {name: United States, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇺🇸|美国|洛杉矶|圣何塞|(\b(US|United States)\b)"}
+
+  - {name: Canada, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Canada.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇨🇦|加拿大|温哥华|多伦多|Canada|(\bCA\b)"}
 
   - {name: Singapore, icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png, type: url-test, interval: 300, include-all: true, filter: "(?i)🇸🇬|新加坡|狮|(\b(SG|Singapore)\b)"}
 
